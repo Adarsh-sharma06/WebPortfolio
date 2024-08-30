@@ -1,15 +1,59 @@
-import React from "react";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import userData from "@constants/data";
 
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    if (!formData.name || !formData.email || !formData.message) {
+      setStatus("All fields are required.");
+      return;
+    }
+
+    emailjs
+      .send(
+        "service_9rcgafk",
+        "template_67eedy3",
+        formData,
+        "1SbvBWDGyOMbAwrUI"
+      )
+
+      .then(
+        (result) => {
+          console.log(result.text);
+          setStatus("Message sent successfully!");
+        },
+        (error) => {
+          console.log(error.text);
+          setStatus("Failed to send message.");
+        }
+      );
+  };
+
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+      <div className="relative max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased z-10">
+        <h1 className="z-11 text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       </div>
-      <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-1 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
@@ -141,15 +185,19 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-white p-4 flex flex-col">
+          <form
+            onSubmit={handleSubmit}
+            className="form rounded-lg bg-white p-4 flex flex-col"
+          >
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
-              {" "}
               Your Name
             </label>
             <input
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
+              value={formData.name}
+              onChange={handleChange}
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
               Email
@@ -158,6 +206,8 @@ export default function Contact() {
               type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
+              value={formData.email}
+              onChange={handleChange}
             />
             <label
               htmlFor="message"
@@ -166,14 +216,15 @@ export default function Contact() {
               Message
             </label>
             <textarea
-              rows="4"
-              type="text"
               className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
+              rows="4"
+              value={formData.message}
+              onChange={handleChange}
             ></textarea>
             <button
               type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              className="bg-blue-500 text-white font-bold py-2 mt-8 mx-4 rounded-md hover:bg-blue-600 transition-all duration-300"
             >
               Send Message
             </button>
