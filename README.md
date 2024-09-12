@@ -6,7 +6,7 @@
 
 This portfolio website is a simple and minimalistic platform to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, and you can use it for whatever purpose you want.
 
-![HomeGif](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/websitegif.gif)
+![HomeGif](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/websitegif.gif)
 
 # Features
 
@@ -22,27 +22,27 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
-![Landing](![Landing](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/home.png)
+![Landing](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/home.png)
 
 ## About
 
-![About](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/about.png)
+![About](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/about.png)
 
 ## Projects
 
-![Projects](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/projects.png)
+![Projects](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/projects.png)
 
 ## Experience
 
-![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/experience.png)
+![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/experience.png)
 
 ## Awards
 
-![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/award.png)
+![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/award.png)
 
 ## Contact
 
-![Contact](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/contact.png)
+![Contact](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/contact.png)
 
 # Tech Stack
 
