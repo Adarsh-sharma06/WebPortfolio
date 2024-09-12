@@ -22,7 +22,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
-![Landing](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/home.png)
+![Landing](![Landing](https://github.com/Adarsh-sharma06/WebPortfolio/blob/main/demo-images/home.png)
 
 ## About
 
