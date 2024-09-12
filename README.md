@@ -2,13 +2,11 @@
 
 **UPDATE:**
 
-1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
-
-2. Included the `constants` folder, where you can directly add your details and they'll get reflected throughout the application. No more customizations for the template required—just add your data and it will update automatically.
+1. Included the `constants` folder, where you can directly add your details and they'll get reflected throughout the application. No more customizations for the template required—just add your data and it will update automatically.
 
 This portfolio website is a simple and minimalistic platform to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, and you can use it for whatever purpose you want.
 
-![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
+![HomeGif](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/websitegif.gif)
 
 # Features
 
@@ -24,23 +22,27 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
-![Landing](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
+![Landing](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/home.png)
 
 ## About
 
-![About](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
+![About](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/about.png)
 
 ## Projects
 
-![Projects](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
+![Projects](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/projects.png)
 
 ## Experience
 
-![Experience](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
+![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/experience.png)
+
+## Awards
+
+![Experience](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/award.png)
 
 ## Contact
 
-![Contact](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
+![Contact](https://github.com/Adarsh-sharma06/WebPortfolio/tree/main/demo-images/contact.png)
 
 # Tech Stack
 
@@ -53,7 +55,7 @@ The website is built using my favorite Tech Stack and deployed on [Vercel](https
 
 # Usage
 
-- Clone the repository using `git clone https://github.com/manuarora700/simple-developer-portfolio-website.git`
+- Clone the repository using `git clone https://github.com/Adarsh-sharma06/WebPortfolio.git`
 - Install all the modules by running `npm install` or `yarn install`
 - Run the local development server by executing `npm run dev` or `yarn dev`
 - Make the required edits and deploy to YOUR GitHub repo for CI/CD.
@@ -72,4 +74,4 @@ This template is completely open source and free to use. Use it for client proje
 
 # Support
 
-<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://buymeacoffee.com/adarshsharma6" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
