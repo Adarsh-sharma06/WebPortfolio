@@ -8,6 +8,11 @@ const userData = {
   address: "Vijapur, Mehsana, India.",
   projects: [
     {
+      title: "eCommerce Website",
+      link: "https://shopping-app-demo.vercel.app/",
+      imgUrl: "/eCommerce_Website.png",
+    },
+    {
       title: "Parking Management System",
       link: "https://techtrio.net",
       imgUrl: "/techtrio.png",
