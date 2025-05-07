@@ -5,8 +5,18 @@ const userData = {
   avatarUrl: "/avatar.jpg",
   email: "devduttadarsh6@gmail.com",
   phone: "+91 7487089739",
-  address: "Vijapur, Mehsana, India.",
+  address: "Ahmedabad, India.",
   projects: [
+    {
+      title: "Doordarshan HRMS",
+      link: "https://hrms.ddnewsgujarati.com/",
+      imgUrl: "/hrms_doordarshan.png",
+    },
+    {
+      title: "Doordarshan Car Request App",
+      link: "https://doordarshan.vercel.app/",
+      imgUrl: "/doordarshan_car_request.png",
+    },
     {
       title: "eCommerce Website",
       link: "https://shopping-app-demo.vercel.app/",
@@ -50,6 +60,20 @@ const userData = {
     currentProjectUrl: "https://adarsh6.vercel.app/",
   },
   experience: [
+    {
+      title: "Full Stack Developer",
+      company: "Doordarshan Kendra",
+      year: "Present",
+      companyLink: "https://prasarbharati.gov.in/doordarshan/",
+      desc: "Managing the development of the HRMS and Car Request Application for Doordarshan Kendra. And also handling the server(AWS).",
+    },
+    {
+      title: "Minors in CSE - Generative AI",
+      company: "Indian Institute of Technology, Mandi.",
+      year: "Present",
+      companyLink: "https://www.iitmandi.ac.in/",
+      desc: "Learning a minor in Computer Science with a focus on Generative AI, covering topics such as machine learning, natural language processing, and computer vision.",
+    },
     {
       title: "Full Stack Developer",
       company: "Dev Engineering",
@@ -114,7 +138,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1V1b88hvs-DbaWAA0rqJ93wPj4j7u7JIB/view?usp=sharing",
+    "https://drive.google.com/file/d/1E4e8t572zmTIVPAZ4YeeKn3G_ZyHk2Io/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/adarsh6_sharma",
     twitter: "https://twitter.com/",
